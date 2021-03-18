@@ -1,0 +1,114 @@
+
+body {
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
+	border-top-right-radius: 20px;
+   	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius:20px;
+	padding-bottom: 100px;
+
+}
+
+
+.row {
+    display:flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+   
+   flex:50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+h1{
+	color: #28004d;
+	font-family: "Courier New";
+	font-size: 55px;
+	font-style: italic;	
+	text-decoration: underline overline;
+}
+h2{ 
+	font-family: "Rage Italic";
+	font-size: 37px;
+	color: #28004d;
+}
+
+img{
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.a {
+    list-style-position: inside;
+    list-style-image:url("../images/c2.png") ;
+    
+}
+
+   li{
+   	font-family: "Courier New"; 
+	font-size: 25px;
+	padding-left: 10px;
+	color: #28004d;
+	
+   }
+  
+p{
+	font-family: "Courier New"; 
+	font-size:25px;
+	text-align: justify;
+	text-indent: 2%;
+	color: #28004d;
+}
+
+button {
+  color: #FFF;
+  background-color: #ff9999;
+  font-weight: bold;
+}
+
+.cookie{
+	width:1300px;
+	height:auto;
+	background-color: rgb(253, 234, 211);
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:20px;
+	align-items: center;
+	margin-left:350px;
+	margin-right:100px;
+	margin-bottom:0px;
+	
+}
+
+.papanasi{
+	width:1300px;
+	height:auto;
+	background-color: rgb(253, 234, 211);
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:20px;
+	align-items: center;
+	margin-left:350px;
+	margin-right:100px;
+	margin-bottom:0px;
+	
+}
+
+.brownie{
+	width:1300px;
+	height:auto;
+	background-color: rgb(253, 234, 211);
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:20px;
+	align-items: center;
+	margin-left:350px;
+	margin-right:100px;
+	margin-bottom:0px;
+	
+}

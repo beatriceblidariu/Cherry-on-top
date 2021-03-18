@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/booking.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+
+		
+</head>
+<header>
+			<a  href="../index.php" >
+				<br />
+					<img src="../images/circle-cropped.png" style="float:left;width:75px;height:75px; padding: 25px;" align="left" />
+			</a>
+		</header>
+
+<body>
+	
+	<div class="container">
+		
+		<div class="container-time">
+			<h2 class="heading">Program</h2>
+			<h3 class="heading -days">Luni-Vineri</h3>
+			<p>8:00 - 22:00</p>
+			
+			<h3 class="heading -days">Sambata-duminica</h3>
+			<p>10:00 - 21:00</p>
+			
+			<hr>
+			<h4 class="heading-phone">Contactati-ne : 0256 989 854</h4>
+			<h4 class="heading-phone">Locatie: Strada Primaverii nr12</h4>
+		</div>
+	</div
+		
+	<div class="container-form">
+		<form action="../php/formularrez.php" method="post">
+			<h2 class="heading-blue">Rezervare Online</h2>
+			<div class="form-field">
+				<p>Nume si Prenume</p>
+				<input type="text" name="nsip">
+			</div>
+			
+			<div class="form-field">
+				<p>Email</p>
+				<input type="text" name="em">
+			</div>
+			
+			<div class="form-field">
+				<p>Data</p>
+				<input type="date" name="da">
+			</div>
+			
+			<div class="form-field">
+				<p>Ora</p>
+				<input type= "time" name="o">
+			</div>
+			
+			<div class="form-field">
+				<p>Numar de persoane</p>
+				<select type="text" name="per">
+					<option value="1"> 1-5 persoane</option>
+					<option value="2"> 5-10persoane</option>
+					<option value="3"> 10-20 persoane</option>
+					<option value="4"> 20-35 persoane</option>
+					<option value="5"> 35+ persoane</option>
+					
+				</select>
+			</div>
+			<button type="submit" class="btn" name="Send">Rezerva</button>
+		</form>
+		
+	</div>
+	
+	</div>
+
+</body>
+</html>

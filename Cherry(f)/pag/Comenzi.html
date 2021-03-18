@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>contact</title>
+	<meta name="author" content="Bia" />
+	<!-- Date: 2018-05-24 -->
+	<link rel="stylesheet"  type="text/css" href="../css/comanda.css" />
+	<link rel="stylesheet" href="../css/test.css">
+	
+</head>
+<body>
+	<nav>
+		<a href="../index.php">ACASA</a>
+		<a href="../pag/booking.html">REZERVARI</a>
+		<a href="../pag/Comenzi.html">COMENZI</a>
+		<a href="../pag/poze.html">MENIU</a> 
+
+		<div class="dropdown">
+			<a href="#" class="drop">RETETE</a>
+			<div class="dropdown-content">
+				<a href="../pag/cookie.html">Cookies</a>
+				<a href="../pag/brownie.html">Brownies</a>
+				<a href="../pag/papanasi.html">Papanasi</a>
+			</div>
+		</div> 
+
+		<a href="../login-register/register.php">AUTENTIFICARE</a>
+		<a href="../login-register/logout.php">LOGOUT</a>
+		<a href="../pag/contact.php">CONTACT</a>
+		<div id="indicator"></div>
+    </nav>
+
+	<div class="container-form">
+			<form action="../php/formular.php" method="post">
+				<h2 class="heading-blue">Formular de comanda</h2>
+				<div class="form-field">
+					<p>Nume: <input type="text" name="name"></p>
+				</div>
+				<div class="form-field">
+					<p>Prenume: <input type="text" name="surname"></p>
+				</div>
+				<div class="form-field">
+					<p>Telefon: <input type="text" name="number"></p>
+				</div>
+				<div class="form-field">
+					<p>E-mail: <input type="text" name="mail"></p>
+				</div>
+				<div class="form-field">
+					<p>Comanda: <textarea name="com" rows="5" cols="40"></textarea></p>
+				</div>	
+		        <button type="submit"  class="btn"name="Send" value="Plaseaza comanda"  >Plaseaza comanda </button>
+	        </form>
+	</div>
+
+</body>
+</html>
+

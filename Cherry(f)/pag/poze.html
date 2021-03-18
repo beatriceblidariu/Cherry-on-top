@@ -1,0 +1,617 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet/less"  type="text/css" href="../css/card.css"/> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+</head>
+<body>
+<nav>
+  <a href="../index.php">ACASA</a>
+  <a href="../pag/booking.html">REZERVARI</a>
+  <a href="../pag/Comenzi.html">COMENZI</a> 
+  <div class="dropdown">
+  <a href="#">MENIU</a> 
+      <div class="dropdown-content">
+        <a href="../vinuri/index.html">Recomandari Vinuri</a>
+        <a href="../prajituri/index.html">Recomandari prajituri</a>
+      </div>
+    </div>
+     <!--<div class="dropdown">-->
+  <a href="#" class="drop">RETETE</a>
+    <!-- <div class="dropdown-content">
+        <a href="../pag/cookie.html">Cookies</a>
+        <a href="../pag/brownie.html">Brownies</a>
+        <a href="../pag/papanasi.html">Papanasi</a>
+      </div>-->
+ 
+  <a href="../login-register/register.php">AUTENTIFICARE</a>
+  <a href="../login-register/logout.php">LOGOUT</a>
+  <a href="../pag/contact.php">CONTACT</a>
+  <div id="indicator"></div>
+</nav>
+<h1>Meniu</h1>
+<ul>
+  <li class="booking-card" style="background-image: url(../images/savarine.jpg)">
+    <div class="book-container">
+      <div class="content">
+
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Savarine</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 10 lei/bucata</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 03 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Aluat:faina, drojdie, zahar, lapte, ou, sare, extract de vanilie, ulei
+                              Sirop:zahar, rom brun
+                              Decor:gem de zmeura, frisca </p>
+        </div>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(../images/tarta-cu-fructe.jpg);">
+   <div class="book-container">
+      <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Tarta cu fructe</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 11 lei/bucata</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 12 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Aluat:faina, unt, zahar, sare, coaja de lamaie, galbenus, apa, vanilie 
+                              Crema:lapte,galbenusuri,zahar,amidon,vanilie,sare 
+                              Decor:fructe, gelatina </p>
+        </div>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(../images/profiterol.jpg);">
+    <div class="book-container">
+       <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Profiterol</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 7 lei/bucata</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 01 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Aluat:faina, unt, sare, oua, apa 
+                              Crema:lapte, galbenusuri, zahar, faina, sare
+                              Ganache: ciocolata neagra, smantana frisca, unt </p>
+        </div>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(../images/ecler.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Ecler</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 8 lei/bucata</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 05 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Aluat:faina, ulei, apa, oua, zahar, vanilat, sare
+                              Crema:oua, zahar, zahar vanilat, faina, lapte, esenta de vanilie
+                              Glazura:unt, ciocolata cu lapte, apa, ulei, cacao </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/tiramisu.jpg);">
+    <div class="book-container">
+     <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Tiramisu</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 10 lei/bucata</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 25 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Blat:cafea, piscoturi
+                              Crema:cafea, coniac, oua, zahar, mascarpone, piscoturi, cacao</p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/rulada_diplomat.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Diplomat</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 11 lei/bucata</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 30 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Aluat:piscoturi, faina, galbenusuri, sare
+                              Crema:frisca lichida, lapte, zahar, gelatina, portocale, kiwi, ananas, esenta de lamaie</p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/tort-fructe.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Tort cu ciocolata alba</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 11 lei/felia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 10 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Aluat:apa, unt, faina, oua, sare
+                              Crema:unt, zahar, esenta de vanilie, oua, lapte, ciocolata neagra, frisca, capsuni, crema de vanilie
+                              Glazura:capsuni </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/forest_cake.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Black Forest</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 13 lei/felia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 27 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Blat:faina, cacao, praf de copt, sare, zahar, ulei, oua, apa, esenta de vanilie
+                              Crema:frisca, zahar, iaurt, esenta de vanilie
+                              Ganache:cacao, ciocolata, lapte, unt, sare
+                              Topping:mure, zmeura, capsuni, rodie, cacao, ciocolata, lapte, unt, sare </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/morcovi.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Tort de morcovi</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 12 lei/felia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 14 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Blat:nuci, morcov, faina, zahar, ulei, praf de copt, sare, scortisoara, oua, esenta de vanilie
+                              Crema:unt, crema de branza, zahar pudra, esenta de vanilie, lamaie
+                              Decor:nuci tocate </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/oreo.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Tort Oreo</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 15 lei/felia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 21 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Blat:faina, cacao, praf de copt, sare, zahar, cafea, ulei, oua, esenta de vanilie
+                              Crema:albusuri, zahar, sare, unt, esenta de vanilie, oreo
+                              Topping:oreo, ciocolata neagra, frisca </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/fructe.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Tort cu fructe</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 9 lei/felia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 13 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Crema 1:fructe de padure, iaurt cu fructe de padure, crema de branza, piscoturi, zahar pudra, gelatina, esenta de fructe de padure
+                              Crema 2:ananas, iaurt cu ananas, crema de branza, piscoturi, zahar pudra, gelatina, esenta de vanilie </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/cheesecake.jpg);">
+    <div class="book-container">
+     <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Cheesecake</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 9 lei/felia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Reducere in fiecare data de 19 a lunii!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Blat:biscuiti digestivi, unt
+                              Crema:crema de branza, zahar pudra, amidon, extract de vanilie, oua, smantana acrisoara, lamaie
+                              Topping:cirese/visine/fructe de padure, zahar, apa, amidon, esenta de migdale</p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/bruschete.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Bruschete</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 15 lei/portia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Fara reducere!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Ingrediente:o bagheta, rosii, ceapa rosie, usturoi, busuioc, oregano, ulei de masline, sare, piper </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/saratele.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Saratele</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 14 lei/kg</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Fara reducere!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Ingrediente:faina, unt, iaurt, drojdie, zahar, sare, chimen, ou, cascaval ras, telemea </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/covrigei.jpg);">
+    <div class="book-container">
+     <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Covrigei</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 9 lei/kg</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Fara reducere!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Ingrediente:faina, zahar, lapte, drojdie, untura, smantana acrisoara, galbenusuri, sare, boia dulce, seminte de chimen/mac/susan </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/platou_rece.jpg);">
+    <div class="book-container">
+     <div class="content">
+       <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Platou rece</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 45 lei/platou</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>La al treilea platou, beneficiati de 10% reducere!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Contine: rulada de jambon cu crema de branza, mini-cornete sau clopotei, mini-rulouri de sunca, oua umplute, mini brosete </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/aperitive_festive.jpg);">
+    <div class="book-container">
+     <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Aperitive</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 25 lei/portia</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>Fara reducere!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Contine:muschi file fiert-afumat, branza de vaci dulce, hrean, otet, sare, zahar, smantana, castraveciori acri </p>
+        </div>
+    </div>
+  </li>
+   <li class="booking-card" style="background-image: url(../images/pateuri.png);">
+    <div class="book-container">
+     <div class="content">
+        <a href="../pag/Comenzi.html"><button class="btn">Comanda</button></a>
+      </div>
+    </div>
+    <div class="informations-container">
+      <h2 class="title">Pateuri cu ciuperci</h2>
+      <p class="sub-title">Doar la Cherry on top!</p>
+      <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+</svg>De la 12 lei/kg</p>
+      <div class="more-information">
+        <div class="info-and-date-container">
+          <div class="box info">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+  </svg>
+            <p>Poza cu intentie informativa</p>
+          </div>
+          <div class="box date">
+            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+  </svg>
+            <p>La 5kg - reducere 15%!</p>
+          </div>
+        </div>
+        <p class="disclaimer">Contine:foietaj din faina integrala, ciuperci, ulei de masline, vin alb, usturoi, patrunjel, cascaval, piper, sare, lapte, seminte de susan </p>
+        </div>
+    </div>
+  </li>
+</ul>
+</body>
+</html>

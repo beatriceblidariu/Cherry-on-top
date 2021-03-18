@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Recomandari Vinuri</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+
+<nav >
+  <a href="../index.php">ACASA</a>
+  <a href="../pag/booking.html">REZERVARI</a>
+  <div class="dropdown">
+	  <a href="../incercari/card.html">MENIU</a> 
+	      <div class="dropdown-content">
+	        <a href="../vinuri/index.html">Recomandari Vinuri</a>
+	        <a href="../prajituri/index.html">Recomandari Prajituri</a>
+	      </div>
+    </div>
+  <a href="../pag/Comenzi.html">COMENZI</a> 
+
+
+   <div class="dropdown">
+	  <a href="#" class="drop">RETETE</a>
+	    <div class="dropdown-content">
+	        <a href="../pag/cookie.html">Cookies</a>
+	        <a href="../pag/brownie.html">Brownies</a>
+	        <a href="../pag/papanasi.html">Papanasi</a>
+	      </div>
+ </div>
+ <!-- <a href="register.php">AUTENTIFICARE</a>-->
+ <!-- <a href="logout.php">LOGOUT</a>-->
+  <a href="../pag/contact.html">CONTACT</a>
+ 		 <div id="indicator"></div>
+</nav>
+
+<div class="leftArea">
+  <input type="text" id="searchKey"/>
+  <button id="btnSearch">Search</button>
+<ul id="wineList"></ul>
+</div>
+
+<form id="wineForm">
+
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="wineId" name="id" type="text" disabled />
+
+<label>Nume:</label>
+<input type="text" id="name" name="name" required>
+
+<label>Tip struguri:</label>
+<input type="text" id="grapes" name="grapes"/>
+
+<label>Tara:</label>
+<input type="text" id="country" name="country"/>
+
+<label>Pret:</label>
+<input type="text" id="price" name="price"/>
+
+<label>An:</label>
+<input type="text" id="year" name="year"/>
+
+<label>Detalii:</label>
+<textarea id="description" name="description"></textarea>
+
+<!--<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>-->
+
+</div>
+
+<div class="rightArea">
+
+<img id="pic" height="500" width="auto" />
+
+
+</div>
+
+</form>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

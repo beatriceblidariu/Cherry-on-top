@@ -1,0 +1,71 @@
+
+.main{
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+}
+
+
+body{
+	background: url(background.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background:pink;
+    border-top-right-radius: 12px;
+   	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius:12px;
+}
+
+header{
+	
+    padding-left:130px;
+	padding-right: 130px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+    height: 100em;
+	
+}
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top: 5px;
+	
+}
+
+ul li{
+	
+	display: inline-block;
+	margin-right:5px;
+	margin-top: 5px;
+	
+}
+
+ul li a {
+	text-decoration:none;
+	color:rgba(255,255,255,0.5);
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	transition : 1s ease;
+}
+
+ul li a : hover{
+	color:rgba(255,255,255,0.75);
+	
+}
+
+ul li a.active{
+	border-bottom: 2px solid;
+	color: #1a253f;
+	font-style:bold;
+}
+.logo img{
+	float:left;
+	position:absolute;
+	top: 27px;
+	width:150px;;
+	height:150px; 
+	padding: 25px;
+}

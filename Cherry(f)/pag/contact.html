@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/contact1.css">
+    
+</head>
+<body>
+   <nav>
+        <a href="index.php">ACASA</a>
+        <a href="booking.html">REZERVARI</a>
+        <a href="Comenzi.html">COMENZI</a>
+        <a href="poze.html">MENIU</a> 
+      
+        <div class="dropdown">
+          <a class="drop">RETETE</a>
+              <div class="dropdown-content">
+                <a href="pag/cookie.html">Cookies</a>
+                <a href="pag/brownie.html">Brownie</a>
+                <a href="pag/papanasi.html">Papanasi</a>
+              </div>
+        </div> 
+      
+        <a href="login-register/register.php">AUTENTIFICARE</a>
+        <a href="login-register/login.php">LOGIN</a>
+        <a href="pag/contact.html">CONTACT</a>
+        <div id="indicator"></div>
+      </nav>
+
+    
+    <div class="containerContact">
+        <h1>Contact Form</h1>
+
+        <form action="../php/formular_contact.php" method="POST">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="nume_prenume" placeholder="Your full name..">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="Your e-mail..">
+
+            <label for="Message">Message</label>
+            <textarea id="message" name="mesaj" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" name="Send" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

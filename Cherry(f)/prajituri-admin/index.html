@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Prajitura</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="header">
+	<input type="text" id="searchKey"/>
+	<button id="btnSearch">Cautare</button>
+	<button id="btnAdd">Adauga prajitura</button>
+</div>
+
+
+<div class="leftArea">
+<ul id="prajiList"></ul>
+</div>
+
+<form id="prajiForm">
+	
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="prajituriId" name="id" type="text" disabled />
+
+<label>Nume:</label>
+<input type="text" id="nume" name="nume" required>
+
+<label>Valabil pana la:</label>
+<input type="text" id="data_valabilitate" name="data_valabilitate"/>
+
+<label>Calorii:</label>
+<input type="text" id="calorii" name="calorii"/>
+
+<label>Tip:</label>
+<input type="text" id="tip" name="tip"/>
+
+<label>Evenimente:</label>
+<input type="text" id="eveniment" name="eveniment"/>
+
+<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>
+
+</div>
+
+<div class="rightArea">
+
+<img id="pic" height="300"/>
+
+<label>Notes:</label>
+<textarea id="description" name="description"></textarea>
+</div>
+
+</form>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
